@@ -170,7 +170,7 @@ public class FFA extends JavaPlugin {
 		
 		public void loadMySQL() {
 			
-			new MySQL("localhost", "fffa", "fffa", "hth579tht");
+			new MySQL("localhost", "user", "data", "password");
 			MySQL.update("CREATE TABLE IF NOT EXISTS FFAStats(UUID varchar(64), KILLS int, DEATHS int, VERBOT varchar(64), VERBOTUUID varchar(64), PUNKTE int);");
 		}
 		
