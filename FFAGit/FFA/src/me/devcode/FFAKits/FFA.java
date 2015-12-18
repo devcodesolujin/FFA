@@ -87,7 +87,7 @@ public class FFA extends JavaPlugin {
 	}
 	
 	public void autob() {
-		final String[] messages = {"§3Du bekommst den §5Youtuber §3Rang ab §e1.000 §3aktivien Abonnenten", "§3Unser Teamspeak: §6ts.mlg420.de", "§3Ein Spieler verhält sich nicht richtig? Nutze §e/report"};
+		final String[] messages = {"§3Du bekommst den §5Youtuber §3Rang ab §e1.000 §3aktivien Abonnenten", "§3Unser Teamspeak: §6TEAMSPEAK", "§3Ein Spieler verhält sich nicht richtig? Nutze §e/report"};
 		if(gesendet == false) {
 			for(Player all : Bukkit.getOnlinePlayers()) {
 				if(all != null) {
