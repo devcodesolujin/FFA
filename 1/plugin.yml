@@ -1,0 +1,19 @@
+name: FFA
+version: 1.0
+author: devcode
+main: me.devcode.FFAKits.FFA
+commands:
+  ffa:
+  stats:
+  premium:
+  save:
+  top:
+  fix:
+  vanish:
+    aliases: [v]
+  gamemode:
+    aliases: [gm]
+  fly:
+  blacklist:
+  ping:
+  setenable:
